@@ -36,4 +36,4 @@ react-data-grid
 
 codeblock.js is found in: node_modules/react-error-overlay/lib/components/CodeBlock.js
 
-Note: wicked-good-xpath will eventually go away once the APIs are converted to JSON
+Note: wicked-good-xpath will eventually go away once the APIs are converted to JSON.
