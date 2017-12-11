@@ -1,0 +1,3 @@
+.react-grid-Row .react-grid-Cell:focus {
+   outline: none;
+}

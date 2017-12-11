@@ -1,0 +1,161 @@
+/*@import url("https://bootswatch.com/flatly/bootstrap.min.css");
+
+body {
+  padding-top: 50px;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}*/
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+/*@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    background:#ecf0f1;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -40%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 40%;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    margin-left: 12px;
+  }
+}
+
+#sidebar {
+    padding:15px;
+    margin-top:10px;
+}*/
+
+
+
+
+/*original style*/
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 125px;
+  padding: 20px;
+  color: white;
+}
+
+.container {
+  width: 100%;
+
+/*	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	padding: 1em;*/
+}
+
+.App-intro {
+  font-size: large;
+}
+.TopBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  height: 62px;
+  padding: 0 24px;
+}
+.TopBar a {
+  margin-right: 18px;
+  text-decoration: none;
+}
+.animated-page-wrapper {
+    position: absolute;
+    top: 62px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.footer {
+	margin-top: 50px;
+	border-top: 1px solid #eee;
+	padding: 20px 0;
+	font-size: 12px;
+	color: #999;
+}
+
+.loader {
+    margin: auto;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    text-align: center;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#cover-spin {
+    position:fixed;
+    width:100%;
+    left:0;right:0;top:0;bottom:0;
+    background-color: rgba(255,255,255,0.7);
+    z-index:9999;
+    display:none;
+}
+
+@-webkit-keyframes spin {
+	from {-webkit-transform:rotate(0deg);}
+	to {-webkit-transform:rotate(360deg);}
+}
+
+@keyframes spin {
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
+
+#cover-spin::after {
+  content:'';
+  display:block;
+  position:absolute;
+  left:48%;top:40%;
+  width:40px;height:40px;
+  border-style:solid;
+  border-color:black;
+  border-top-color:transparent;
+  border-width: 4px;
+  border-radius:50%;
+  -webkit-animation: spin .8s linear infinite;
+  animation: spin .8s linear infinite;
+}
