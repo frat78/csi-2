@@ -4,6 +4,8 @@ New version of CSI built on Reactjs
 
 The following are the packages required, and what needs to be installed with starting fresh from create_react_app, etc.
 
+run the create-react-app command to build the react project structure.  Then follow the npm commands:
+
 npm install:
 
 moment
