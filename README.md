@@ -26,8 +26,6 @@ react-bootstrap
 
 react-loading-overlay
 
-wicked-good-xpath
-
 jquery
 
 react-router-dom
@@ -37,5 +35,3 @@ react-data-grid
 •	add this on line 12 of codeblock.js:  require('es6-object-assign').polyfill();
 
 codeblock.js is found in: node_modules/react-error-overlay/lib/components/CodeBlock.js
-
-Note: wicked-good-xpath will eventually go away once the APIs are converted to JSON.
